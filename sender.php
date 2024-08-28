@@ -6,7 +6,6 @@ foreach ($_POST as $key => $value) {
   }
   if(trim($content)){
     $content = "<b>Message from site:</b>\n".$content;
-    # $apiToken = "7202563154:AAFHmlnVmyiZpnEBBSaWhVZpnjZ-c7TliXE";
     $apiToken = "7256933927:AAFy19j4RNhJ_xsnOypGdafRqWMAY6LNX3Q";
     $data = [
       'Chat_id' => '-4523949478',
