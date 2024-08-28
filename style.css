@@ -1,0 +1,35 @@
+*,
+*::before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+form {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+form * {
+  padding: 0.4rem 1rem;
+  border: 1px solid black;
+  resize: none;
+}
+form *::placeholder {
+  color: black;
+}
+form *:last-child {
+  background: #000;
+  color: white;
+}
